@@ -41,10 +41,10 @@ The script is used to calculate the surprisial value of some token in a given co
 Sentences are padded only at the beginning of each sentence in the following format:
 - for bigrams
 
-		'^' '^'
+		^ ^
 - for trigrams
 
-		'^' '^' '^'
+		^ ^ ^
 To change the format of the padding you need to change the `bigram` and `trigram` variables respectively (in the `run_script` function).
 
 ***
