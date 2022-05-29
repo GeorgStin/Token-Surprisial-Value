@@ -4,7 +4,7 @@ This is a small Python script for calculating of surpriasial value of tokens usi
 
 *Surprisial* of the event is the informational value of a particular event ([Attneave 1959](https://github.com/GeorgStin/Token-Surprisial-Value/edit/main/README.md#references), 6):
 
-![H](https://bit.ly/3LS4x2B)
+![H](http://www.sciweavers.org/tex2img.php?eq=H%20%3D%20log%20%5Cfrac%7B1%7D%7Bp%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 Without going into details, ***p*** for calculating of a token surpriasial in a certain context (the "context" is the previous two words or just "bigram") takes the following form:
 
@@ -21,7 +21,10 @@ Without going into details, ***p*** for calculating of a token surpriasial in a 
 # Files
 ## README.md
 This file.
- 
+
+## korpus.txt
+Here is a test corpus with three sentences. You can change this file and create your own corpus/text or you can copy a new txt-file to the folder with the script (*you need to change a variable in the script! see next section*).
+
 ## surprisial.py
 The script is used to calculate the surprisial value of some token in a given corpus or text. The context (bigrams) and its relative frequency are used to calculating. Some special format of your corpus or text is not required for this script. Segmentation of corpus/text/string into sentences and padding are included.
 
@@ -31,9 +34,6 @@ The script is used to calculate the surprisial value of some token in a given co
  
 		Surprisal of "men" is: 1.584962500721156
 		Context: sach de men		
-
-## korpus.txt
-Here is a test corpus with three sentences. You can change this file and create your own corpus/text or you can copy a new txt-file to the folder with the script (*you need to change a variable in the script! See: [surprisial.py/input](https://github.com/GeorgStin/Token-Surprisial-Value/edit/main/README.md#surprisialpy)*).
 
 ***
 
