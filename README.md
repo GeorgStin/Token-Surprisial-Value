@@ -8,7 +8,7 @@ This is a small Python script for calculating of surpriasial value of tokens usi
 
 Without going into details, ***p*** for calculating of a token surpriasial in a certain context (the "context" is the previous two words or just "bigram") takes the following form:
 
-		p = relative trigram frequency/ relative bigram frequency
+		p = relative trigram frequency / relative bigram frequency
 
 ***
 
